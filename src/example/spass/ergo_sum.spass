@@ -1,0 +1,22 @@
+begin_problem(ergo_sum).
+list_of_descriptions.
+name({*dubito, ergo cogito, ergo sum*}).
+author({*Internet*}).
+status(satisfiable).
+description({**}).
+end_of_list.
+
+list_of_symbols.
+functions[(I,0)].
+predicates[(D,1), (C,1),(S,1)].
+end_of_list.
+
+list_of_formulae(axioms).
+formula(forall([x],implies(D(x),C(x))),2).
+formula(forall([x],implies(C(x),S(x))),2).
+end_of_list.
+
+list_of_formulae(conjectures).
+formula(S(I),3).
+end_of_list.
+end_problem.

@@ -1,0 +1,9 @@
+formulas(assumptions).
+D(I).
+ all x (D(x) -> C(x)).
+ all x (C(x) -> S(x)).
+end_of_list
+
+formulas(goals).
+ S(I).
+end_of_list

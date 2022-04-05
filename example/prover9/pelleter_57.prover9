@@ -1,0 +1,14 @@
+∀x(Px → Qx)
+    all x (Px -> Qx).
+    -P(x) | Q(x).
+∃x(Px & Qx)
+    exists x (Px & Qx).
+    P(c1).
+    Q(c1).
+∀x∃y(Rxy ∨ x , y)
+    all x exists y (Rxy | -(x=y)).
+        R(x,f(x)) | -(x = f(x)).
+∀x∀y∃z(Rxyz & Rzyx)
+    all x all y exists z (Rxyz & Rzyx)
+        R(x,y,f(x,y)).
+        R(f(x,y),x,y).

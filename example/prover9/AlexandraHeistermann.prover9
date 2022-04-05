@@ -1,0 +1,8 @@
+formulas(assumptions).
+  z(x) -> y(x).   % open formula with free variable x
+  z(lambda).
+end_of_list.
+
+formulas(goals).
+  y(lambda).
+end_of_list.

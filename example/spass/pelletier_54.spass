@@ -1,0 +1,8 @@
+begin_problem(Pelletier54).
+
+list_of_formulae(axioms).
+
+formula(not(exists([U],forall([V],equiv(F(V,U),forall([W],implies(F(V,W),exists([X],and(F(X,W),not(exists([Y],and(F(Y,W),F(Y,X))))))))))))).
+
+list_of_formulae(conjectures).
+

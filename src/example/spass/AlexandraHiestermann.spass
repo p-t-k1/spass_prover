@@ -1,0 +1,30 @@
+begin_problem(AlexandraHiestermann).
+
+list_of_descriptions.
+name({*Redeclarations*}).
+author({*Christoph Weidenbach*}).
+status(unsatisfiable).
+description({* Alexandra Hiestermann problem *}).
+end_of_list.
+
+list_of_symbols.
+ functions[(x,0)].
+ predicates[(y,1),(z,1)].
+end_of_list.
+
+list_of_formulae(axioms).
+
+formula(y(x),1).
+formula(forall([i],implies(y(x),z(x))),2).
+
+end_of_list.
+
+list_of_formulae(conjectures).
+
+formula(z(x),3).
+
+end_of_list.
+
+end_problem.
+
+Alexandra_Hiestermann
